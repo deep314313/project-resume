@@ -50,7 +50,7 @@ function billing() {
     const options={
       "key":process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID,
       "subscription_id":subId,
-      "name":'Tubeguruji AI Apps',
+      "name":'Deepanshu Gupta',
       description:'Monthly Subscription',
       handler:async(resp:any)=>{
         console.log(resp);
